@@ -25,11 +25,12 @@
     <!--================ Start Header Menu Area =================-->
     <header class="header_area white-header">
         <div class="main_menu">
-
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand text-white" href="../index.html">Dollar B School</a>
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logo/Doller B Logo_1.png" alt="Bootstrap" width="150" height="60">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -54,11 +55,11 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="../course_details/full_stack.html">Web Design &
-                                            Development (Full
-                                            Stack)</a>
+                                            Development (Full Stack)</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="courses.html">Graphic Design</a>
+                                        <a class="nav-link" href="../course_details/graphics_design.html">Graphics
+                                            Design</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="../course_details/digital_marketing.html">Digital
@@ -71,22 +72,19 @@
                                     aria-haspopup="true" aria-expanded="false">Offline courses</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Designer Pro Course</a>
+                                        <a class="nav-link" href="../course_details/ui_ux_design.html">UX UI Design</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="single-blog.html">UX UI Design Course</a>
+                                        <a class="nav-link" href="../course_details/full_stack.html">Web Design &
+                                            Development (Full Stack)</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Advanced Graphic Design Course</a>
+                                        <a class="nav-link" href="../course_details/graphics_design.html">Graphics
+                                            Design</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Full Stack Web Development Course</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Digital Marketing Course</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Film Editing Course</a>
+                                        <a class="nav-link" href="../course_details/digital_marketing.html">Digital
+                                            Marketing</a>
                                     </li>
                                 </ul>
                             </li>
@@ -128,7 +126,7 @@
             <div class="row">
                 <div class="col-lg-8 course_details_left">
                     <div class="main_image">
-                        <img class="img-fluid" src="../img/web-design.png" alt="">
+                        <img class="img-fluid" src="../img/digital-marketing.jpg" alt="">
                     </div>
                     <div class="content_wrapper">
                         <h4 class="title">Objectives</h4>
@@ -364,19 +362,31 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#FoundtoUI"
-                                                            aria-expanded="true" aria-controls="FoundtoUI">
-                                                            Module 1: A Strong Foundation to UI
+                                                            data-bs-toggle="collapse" data-bs-target="#MainModule"
+                                                            aria-expanded="true" aria-controls="MainModule">
+                                                            Module 1: Main Module
                                                         </button>
                                                     </h2>
-                                                    <div id="FoundtoUI" class="accordion-collapse collapse show"
+                                                    <div id="MainModule" class="accordion-collapse collapse show"
                                                         data-bs-parent="#UIDesignTrainMou">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Understanding User Interface Design</li>
-                                                                <li>UI Design Process</li>
-                                                                <li>Don Norman’s Design Principles</li>
-                                                                <li>Interface Design patterns</li>
+                                                                <li>Data Visualization Introduction and Concepts</li>
+                                                                <li>Tableau Introduction and Tableau Architecture</li>
+                                                                <li>Exploring Data using Tableau</li>
+                                                                <li>Working with Data using Tableau including Data Extraction and Blending</li>
+                                                                <li>Hierarchies - Tableau Drill Down and Roll Up Features</li>
+                                                                <li>Sorting - Quick Sort, Sort from Headers, Legends, Axis, Tool Bar; Sort by Fields, Nested Sort</li>
+                                                                <li>Filtering - Dimension Filters, Measure Filters, Date Filters, Tableau Context Filters</li>
+                                                                <li>Groups, Sets and Combined Sets</li>
+                                                                <li>Reference Lines, Bands and Distribution</li>
+                                                                <li>Parameters - Dynamic Parameters, Parameter Actions</li>
+                                                                <li>Forecasting - Exponential Smoothing Technique</li>
+                                                                <li>Data Mining Unsupervised Learning - Clustering</li>
+                                                                <li>Calculated fields in Tableau, Quick Table Calculations, LOD Expressions</li>
+                                                                <li>Tableau Mapping Features</li>
+                                                                <li>Tableau - R Integration</li>
+                                                                <li>Tableau Interactive Dashboards, Dashboard Actions, Stories</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -384,23 +394,27 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#WebMobileTab"
-                                                            aria-expanded="false" aria-controls="WebMobileTab">
-                                                            Module 2: Web,Mobile,Tablet and Watch Visual Design
+                                                            data-bs-toggle="collapse" data-bs-target="#Chartsandtableau"
+                                                            aria-expanded="false" aria-controls="Chartsandtableau">
+                                                            Module 2: Various Charts in Tableau (Basic to Advanced)
                                                         </button>
                                                     </h2>
-                                                    <div id="WebMobileTab" class="accordion-collapse collapse"
+                                                    <div id="Chartsandtableau" class="accordion-collapse collapse"
                                                         data-bs-parent="#UIDesignTrainMou">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Visual Layouts, Hierarchy and Spacing</li>
-                                                                <li>Color Psychology and Theory</li>
-                                                                <li>Typography | Iconography | Logofolio</li>
-                                                                <li>Infographics</li>
-                                                                <li>Branding Design</li>
-                                                                <li>Design System</li>
-                                                                <li>Style Guide</li>
-                                                                <li>tools: Photoshop, Illustrator</li>
+                                                                <li>Eye for Detail - (Tableau Crosstabs), Highlight tables</li>
+                                                                <li>Comparative Analysis - Bar Graphs, Side-By-Side Bars, Circle Views, Heat Map, Bubble Chart</li>
+                                                                <li>Composition Analysis - Pie Chart, Donut Chart, Stacked Bar Graph</li>
+                                                                <li>Trend Analysis - Line Graphs and Area Graphs (Discrete and Continuous)</li>
+                                                                <li>Hierarchial Data Representation - Tree Map</li>
+                                                                <li>Correlation Analysis - Scatter Plot</li>
+                                                                <li>Distribution Analysis - Tableau Histogram, Box and Whisker Plot</li>
+                                                                <li>GeoSpatial Data Representation - Filled Maps, Symbol Maps, Combination Maps, Polygon Maps</li>
+                                                                <li>Relative comparison of 2 Measures - Bullet Graph, Dual Axis Chart, Dual Combination Chart, Blended Axis Chart, Bar in a Bar Chart</li>
+                                                                <li>Pareto Analysis - Pareto Chart</li>
+                                                                <li>Statistical Control Chart</li>
+                                                                <li>Tableau Gantt Chart</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -408,96 +422,17 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#UIElementsCompo"
-                                                            aria-expanded="false" aria-controls="UIElementsCompo">
-                                                            Module 3: UI Elements and Components
+                                                            data-bs-toggle="collapse" data-bs-target="#TableauCert"
+                                                            aria-expanded="false" aria-controls="TableauCert">
+                                                            Module 3: Tableau Certification Orientation
                                                         </button>
                                                     </h2>
-                                                    <div id="UIElementsCompo" class="accordion-collapse collapse"
+                                                    <div id="TableauCert" class="accordion-collapse collapse"
                                                         data-bs-parent="#UIDesignTrainMou">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Building Blocks of Interface</li>
-                                                                <li>Input Controls</li>
-                                                                <li>Navigational Components</li>
-                                                                <li>Informational Components</li>
-                                                                <li>Containers</li>
-                                                                <li>Creating UI Elements</li>
-                                                                <li>UI Kits and Widgets</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#InteractionDesignTool"
-                                                            aria-expanded="false" aria-controls="InteractionDesignTool">
-                                                            Module 4: Interaction Design Tools
-                                                        </button>
-                                                    </h2>
-                                                    <div id="InteractionDesignTool" class="accordion-collapse collapse"
-                                                        data-bs-parent="#UIDesignTrainMou">
-                                                        <div class="accordion-body">
-                                                            <ul>
-                                                                <li>Figma</li>
-                                                                <li>Adobe XD</li>
-                                                                <li>Sketch</li>
-                                                                <li>Zeplin</li>
-                                                                <li>Protopie</li>
-                                                                <li>Notion</li>
-                                                                <li>Framer</li>
-                                                                <li>Webflow</li>
-                                                                <li>Wordpress</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#InteractionToolBasics"
-                                                            aria-expanded="false" aria-controls="InteractionToolBasics">
-                                                            Module 5: Interaction Tool Basics
-                                                        </button>
-                                                    </h2>
-                                                    <div id="InteractionToolBasics" class="accordion-collapse collapse"
-                                                        data-bs-parent="#UIDesignTrainMou">
-                                                        <div class="accordion-body">
-                                                            <ul>
-                                                                <li>Designing on a Grid</li>
-                                                                <li>Setting up Frames</li>
-                                                                <li>Importing and Exporting SVG, JPEG and PNG</li>
-                                                                <li>Vector Graphics</li>
-                                                                <li>Boolean Operations</li>
-                                                                <li>Component Properties and Varients</li>
-                                                                <li>Triggers and Actions</li>
-                                                                <li>10X Speed with Plugins</li>
-                                                                <li>Figma Developer Mode</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#UITesting"
-                                                            aria-expanded="false" aria-controls="UITesting">
-                                                            Module 6: UI Testing
-                                                        </button>
-                                                    </h2>
-                                                    <div id="UITesting" class="accordion-collapse collapse"
-                                                        data-bs-parent="#UIDesignTrainMou">
-                                                        <div class="accordion-body">
-                                                            <ul>
-                                                                <li>Usability and User Testing</li>
-                                                                <li>Heuristic Evaluation</li>
-                                                                <li>Heat-map Testing</li>
-                                                                <li>First-Click Testing</li>
-                                                                <li>A/B Testing</li>
-                                                                <li>Google Analytics</li>
+                                                                <li>Tableau Desktop Specialist</li>
+                                                                <li>Tableau Desktop Certified Associate</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -509,35 +444,34 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#ProLevelUIUX"
-                                            aria-expanded="false" aria-controls="ProLevelUIUX">
-                                            Pro Level UX UI Module
+                                            data-bs-toggle="collapse" data-bs-target="#PowerBI"
+                                            aria-expanded="false" aria-controls="PowerBI">
+                                            Power BI
                                         </button>
                                     </h2>
-                                    <div id="ProLevelUIUX" class="accordion-collapse collapse"
+                                    <div id="PowerBI" class="accordion-collapse collapse"
                                         data-bs-parent="#MainAccordian">
                                         <div class="accordion-body">
-                                            <div class="accordion" id="FrontEndReactbody">
+                                            <div class="accordion" id="PowerBIBody">
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button" type="button"
                                                             data-bs-toggle="collapse"
-                                                            data-bs-target="#AdvancedUXResearch" aria-expanded="true"
-                                                            aria-controls="AdvancedUXResearch">
-                                                            Module 1: Advanced UX Research
+                                                            data-bs-target="#WhatisPowerBI" aria-expanded="true"
+                                                            aria-controls="WhatisPowerBI">
+                                                            Module 1: What is Power BI
                                                         </button>
                                                     </h2>
-                                                    <div id="AdvancedUXResearch"
+                                                    <div id="WhatisPowerBI"
                                                         class="accordion-collapse collapse show"
-                                                        data-bs-parent="#FrontEndReact">
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Post-launch research</li>
-                                                                <li>Scope Documentation Research</li>
-                                                                <li>Primary Research</li>
-                                                                <li>Secondary Research</li>
-                                                                <li>Exploratory Research</li>
-                                                                <li>Evaluative Research</li>
+                                                                <li>Power BI Tips and Tricks & ChatGPT Prompts</li>
+                                                                <li>Overview of Power BI</li>
+                                                                <li>Architecture of Power BI</li>
+                                                                <li>Power BI and Plans</li>
+                                                                <li>Installation and introduction to Power BI</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -546,22 +480,34 @@
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
                                                             data-bs-toggle="collapse"
-                                                            data-bs-target="#AdvancedUXPsychology" aria-expanded="false"
-                                                            aria-controls="AdvancedUXPsychology">
-                                                            Module 2: Advanced UX Psychology
+                                                            data-bs-target="#TransformingPowerBI" aria-expanded="false"
+                                                            aria-controls="TransformingPowerBI">
+                                                            Module 2: Transforming Data using Power BI Desktop
                                                         </button>
                                                     </h2>
-                                                    <div id="AdvancedUXPsychology" class="accordion-collapse collapse"
-                                                        data-bs-parent="#FrontEndReact">
+                                                    <div id="TransformingPowerBI" class="accordion-collapse collapse"
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Anchoring Bias</li>
-                                                                <li>Confirmation Bias</li>
-                                                                <li>Empathy Gap</li>
-                                                                <li>false: Consensus Bias</li>
-                                                                <li>Framing Effect</li>
-                                                                <li>Question Order Bias</li>
-                                                                <li>Serial - Position Effect</li>
+                                                                <li>Importing data</li>
+                                                                <li>Changing Database</li>
+                                                                <li>Data Types in Power BI</li>
+                                                                <li>Basic Transformations</li>
+                                                                <li>Managing Query Groups</li>
+                                                                <li>Splitting Columns</li>
+                                                                <li>Changing Data Types</li>
+                                                                <li>Working with Dates</li>
+                                                                <li>Removing and Reordering Columns</li>
+                                                                <li>Conditional Columns</li>
+                                                                <li>Custom columns</li>
+                                                                <li>Connecting to Files in a Folder</li>
+                                                                <li>Merge Queries</li>
+                                                                <li>Query Dependency View</li>
+                                                                <li>Transforming Less Structured Data</li>
+                                                                <li>Query Parameters</li>
+                                                                <li>Column profiling</li>
+                                                                <li>Query Performance Analytics</li>
+                                                                <li>M-Language</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -569,24 +515,19 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#AdvancedUIDesign"
-                                                            aria-expanded="false" aria-controls="AdvancedUIDesign">
-                                                            Module 3: Advanced UI Design
+                                                            data-bs-toggle="collapse" data-bs-target="#DataCardinality"
+                                                            aria-expanded="false" aria-controls="DataCardinality">
+                                                            Module 3: Data Cadinality and Data Modeling in Power BI Desktop
                                                         </button>
                                                     </h2>
-                                                    <div id="AdvancedUIDesign" class="accordion-collapse collapse"
-                                                        data-bs-parent="#FrontEndReact">
+                                                    <div id="DataCardinality" class="accordion-collapse collapse"
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Google Design System</li>
-                                                                <li>Design System Building</li>
-                                                                <li>Micro-interaction and Animations</li>
-                                                                <li>Advanced Layout Techniques (Auto Layout)</li>
-                                                                <li>Responsive and Adaptive Design</li>
-                                                                <li>Glassmorphism and Neumorphism Screen Design</li>
-                                                                <li>Dark Theme Design</li>
-                                                                <li>Parallax Design</li>
-                                                                <li>Game UI</li>
+                                                               <li>Managing Data Relationships</li>
+                                                               <li>Data Cardinality</li>
+                                                               <li>Creating and Managing Hierarchies Using Calculated Tables</li>
+                                                               <li>Introduction to Visualization</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -594,19 +535,20 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#MobileUIresDesi"
-                                                            aria-expanded="false" aria-controls="MobileUIresDesi">
-                                                            Module 4: Mobile-first UI and Responsive Design
+                                                            data-bs-toggle="collapse" data-bs-target="#IntroDax"
+                                                            aria-expanded="false" aria-controls="IntroDax">
+                                                            Module 4: Introduction to DAX
                                                         </button>
                                                     </h2>
-                                                    <div id="MobileUIresDesi" class="accordion-collapse collapse"
-                                                        data-bs-parent="#FrontEndReact">
+                                                    <div id="IntroDax" class="accordion-collapse collapse"
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Mobile-first design principles</li>
-                                                                <li>Responsive web design for mobile devices</li>
-                                                                <li>Mobile UI patterns and best practices</li>
-                                                                <li>Thumb-Zone Considerations for Mobile UI</li>
+                                                                <li>What is Dax?</li>
+                                                                <li>How to write DAX</li>
+                                                                <li>Types of Function in DAX</li>
+                                                                <li>Creating Calculated Measures</li>
+                                                                <li>Types of Application of DAX</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -615,23 +557,31 @@
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
                                                             data-bs-toggle="collapse"
-                                                            data-bs-target="#Emerging UI Technologies"
+                                                            data-bs-target="#VisualizingData"
                                                             aria-expanded="false"
-                                                            aria-controls="Emerging UI Technologies">
-                                                            Module 5: Emerging UI Technologies
+                                                            aria-controls="VisualizingData">
+                                                            Module 5: Visualizing your Data
                                                         </button>
                                                     </h2>
-                                                    <div id="Emerging UI Technologies"
+                                                    <div id="VisualizingData"
                                                         class="accordion-collapse collapse"
-                                                        data-bs-parent="#FrontEndReact">
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Introduction to VR/AR interfaces</li>
-                                                                <li>Voice UI and conversational interfaces</li>
-                                                                <li>Gesture-based interfaces</li>
-                                                                <li>The future of UI/UX design and development</li>
-                                                                <li>tool: Spark AR, Dora, ChatGPT, Gemini and Prompt
-                                                                    writing</li>
+                                                                <li>Introduction</li>
+                                                                <li>Pie and Doughnut charts</li>
+                                                                <li>Treemap</li>
+                                                                <li>Bar Chart with Line (Combo Chart)</li>
+                                                                <li>Filter (Including TopN)</li>
+                                                                <li>Slicer</li>
+                                                                <li>Focus Mode and See Data</li>
+                                                                <li>Table and Matrix</li>
+                                                                <li>Gauge, Card, and KPI</li>
+                                                                <li>Coloring Charts</li>
+                                                                <li>Shapes, Textboxes, and Images</li>
+                                                                <li>Gridlines and Snap to Grid</li>
+                                                                <li>Custom Power BI visuals</li>
+                                                                <li>Tooltips and Drilldown</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -640,21 +590,77 @@
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button collapsed" type="button"
                                                             data-bs-toggle="collapse"
-                                                            data-bs-target="#IntensiveSprintProTrain"
+                                                            data-bs-target="#AdvancedVisualizations"
                                                             aria-expanded="false"
-                                                            aria-controls="IntensiveSprintProTrain">
-                                                            Module 6: Data Intensive Sprint Project Training
+                                                            aria-controls="AdvancedVisualizations">
+                                                            Module 6: Advanced Visualizations
                                                         </button>
                                                     </h2>
-                                                    <div id="IntensiveSprintProTrain"
+                                                    <div id="AdvancedVisualizations"
                                                         class="accordion-collapse collapse"
-                                                        data-bs-parent="#FrontEndReact">
+                                                        data-bs-parent="#PowerBIBody">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Overview of The Google Design Sprint Framework</li>
-                                                                <li>Conducting a design sprint workshop</li>
-                                                                <li>Rapid prototyping and testing</li>
-                                                                <li>Iteration and Feedback</li>
+                                                                <li>Layout and Formatting</li>
+                                                                <li>Visual Relationship</li>
+                                                                <li>Maps</li>
+                                                                <li>Python and R . Visual Integration</li>
+                                                                <li>Analytics Pane</li>
+                                                                <li>Bookmarks and Navigation</li>
+                                                                <li>Selection pane</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#PowerBIDashboard"
+                                                            aria-expanded="false"
+                                                            aria-controls="PowerBIDashboard">
+                                                            Module 7: Power BI Dashboard
+                                                        </button>
+                                                    </h2>
+                                                    <div id="PowerBIDashboard"
+                                                        class="accordion-collapse collapse"
+                                                        data-bs-parent="#PowerBIBody">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Overview of Dashboards and Service</li>
+                                                                <li>Uploading to Power BI Service</li>
+                                                                <li>Quick Insights</li>
+                                                                <li>Dashboard Settings</li>
+                                                                <li>Natural Language Queries</li>
+                                                                <li>Featured Questions</li>
+                                                                <li>Sharing a Dashboard</li>
+                                                                <li>In-Focus Mode</li>
+                                                                <li>Notifications and Alerts in the Power BI Service</li>
+                                                                <li>Personal Gateway Publishing to Web Admin Portal</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#OrganizationPacSec"
+                                                            aria-expanded="false"
+                                                            aria-controls="OrganizationPacSec">
+                                                            Module 8: Organization Packs, Security - Working with others
+                                                        </button>
+                                                    </h2>
+                                                    <div id="OrganizationPacSec"
+                                                        class="accordion-collapse collapse"
+                                                        data-bs-parent="#PowerBIBody">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Introduction</li>
+                                                                <li>Creating a Content Pack</li>
+                                                                <li>Using a Content Pack</li>
+                                                                <li>Row Level Security</li>
+                                                                <li>Summary</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -666,53 +672,50 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#UIDevTrain" aria-expanded="false"
-                                            aria-controls="UIDevTrain">
-                                            UI Development Training Module
+                                            data-bs-toggle="collapse" data-bs-target="#AdvExcel" aria-expanded="false"
+                                            aria-controls="AdvExcel">
+                                            Advanced Excel
                                         </button>
                                     </h2>
-                                    <div id="UIDevTrain" class="accordion-collapse collapse"
+                                    <div id="AdvExcel" class="accordion-collapse collapse"
                                         data-bs-parent="#MainAccordian">
                                         <div class="accordion-body">
-                                            <div class="accordion" id="UIDevTrainAccordian">
+                                            <div class="accordion" id="AdvExcelAccordian">
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header">
                                                         <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#HTMLCSS"
-                                                            aria-expanded="true" aria-controls="HTMLCSS">
-                                                            Module 1: HTML5 and CSS3
+                                                            data-bs-toggle="collapse" data-bs-target="#AdvExcelMainModule"
+                                                            aria-expanded="true" aria-controls="AdvExcelMainModule">
+                                                            Module 1: Main Module
                                                         </button>
                                                     </h2>
-                                                    <div id="HTMLCSS" class="accordion-collapse collapse show"
-                                                        data-bs-parent="#UIDevTrainAccordian">
+                                                    <div id="AdvExcelMainModule" class="accordion-collapse collapse show"
+                                                        data-bs-parent="#AdvExcelAccordian">
                                                         <div class="accordion-body">
                                                             <ul>
-                                                                <li>Design Engineering</li>
-                                                                <li>Building web pages</li>
-                                                                <li>Creating responsive Layouts</li>
-                                                                <li>Designing buttons, tooltips, etc</li>
-                                                                <li>Interactive Prototype</li>
-                                                                <li>Browser Compatibility</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#BootstrapJavaJquery" aria-expanded="false"
-                                                            aria-controls="BootstrapJavaJquery">
-                                                            Module 2: Bootstrap, Javascript, JQuery
-                                                        </button>
-                                                    </h2>
-                                                    <div id="BootstrapJavaJquery" class="accordion-collapse collapse"
-                                                        data-bs-parent="#UIDevTrainAccordian">
-                                                        <div class="accordion-body">
-                                                            <ul>
-                                                                <li>An Overview</li>
-                                                                <li>Basic Principles and Fundamentals</li>
-                                                                <li>Mobile first Website</li>
+                                                                <li>ChatGPT for Excel and Data Analysis</li>
+                                                                <li>Statistical Analysis using Excel</li>
+                                                                <li>Business Moments</li>
+                                                                <li>Graphical Techniques using Excel</li>
+                                                                <li>Inferential Statistics</li>
+                                                                <li>Hypothesis Testing using Excel</li>
+                                                                <li>Entering and Editing Text and Formulas</li>
+                                                                <li>Working with Basic Excel Functions</li>
+                                                                <li>Formatting Data in an Excel Worksheet</li>
+                                                                <li>Creating Basic Charts in Excel</li>
+                                                                <li>Excel Functions</li>
+                                                                <li>Working with an Excel List</li>
+                                                                <li>List Functions</li>
+                                                                <li>Data Validation</li>
+                                                                <li>Pivot Tables</li>
+                                                                <li>Conditional Functions</li>
+                                                                <li>Loopkup Functions</li>
+                                                                <li>Text Based Functions</li>
+                                                                <li>What-IF Tools</li>
+                                                                <li>Understanding Why and How behind Excel Macros</li>
+                                                                <li>VBA Variables and Operators</li>
+                                                                <li>Automate Excel Formulas</li>
+                                                                <li>WOrking with VBA Forms</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -724,25 +727,284 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#ResumePortfolio"
-                                            aria-expanded="false" aria-controls="ResumePortfolio">
-                                            Resume and Portfolio Building
+                                            data-bs-toggle="collapse" data-bs-target="#SQL"
+                                            aria-expanded="false" aria-controls="SQL">
+                                            SQL
                                         </button>
                                     </h2>
-                                    <div id="ResumePortfolio" class="accordion-collapse collapse"
+                                    <div id="SQL" class="accordion-collapse collapse"
                                         data-bs-parent="#MainAccordian">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li>Projects Showcase</li>
-                                                <li>Problem-Solving Showcase</li>
-                                                <li>Visual Appeal</li>
-                                                <li>Process Overview</li>
-                                                <li>Skills Section</li>
-                                                <li>Case Studies</li>
-                                                <li>Contact Information</li>
-                                                <li>Continuous Improvement</li>
-                                                <li>Personal Toucht</li>
+                                                <li>What is DataBase</li>
+                                                <li>Types of Databases</li>
+                                                <li>DBMS vs RDBMS</li>
+                                                <li>DBMS Architecture</li>
+                                                <li>Normalisation & Denormalization</li>
+                                                <li>Install PostgreSQL</li>
+                                                <li>Install MySQL</li>
+                                                <li>Data Models</li>
+                                                <li>DBMS Language</li>
+                                                <li>ACID Properties in DBMS</li>
+                                                <li>What is SQL</li>
+                                                <li>SQL Data Types</li>
+                                                <li>SQL Commands</li>
+                                                <li>SQL Operators</li>
+                                                <li>SQL Keys</li>
+                                                <li>SQL Joins</li>
+                                                <li>Group By, Having, Order By</li>
+                                                <li>SubQueries with Select, insert, update, delete statements</li>
+                                                <li>Views in SQL</li>
+                                                <li>SQL set operations and types</li>
+                                                <li>SQL Functions</li>
+                                                <li>SQL Triggers</li>
+                                                <li>Introduction to NOSQl concepts</li>
+                                                <li>SQL vs NOSQL</li>
+                                                <li>Database Connection SQL to Python</li>
                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#GoogleLookerStudio"
+                                            aria-expanded="false" aria-controls="GoogleLookerStudio">
+                                            Google Looker Studio
+                                        </button>
+                                    </h2>
+                                    <div id="GoogleLookerStudio" class="accordion-collapse collapse"
+                                        data-bs-parent="#MainAccordian">
+                                        <div class="accordion-body">
+                                            <div class="accordion" id="GoogleLookerStudiobody">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#IntroGoogleLookerStudio"
+                                                            aria-expanded="true" aria-controls="IntroGoogleLookerStudio">
+                                                            Module 1: Introduction to Google Looker Studio
+                                                        </button>
+                                                    </h2>
+                                                    <div id="IntroGoogleLookerStudio" class="accordion-collapse collapse show"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Accessing Looker Studio</li>
+                                                                <li>Connectors</li>
+                                                                <li>Creating a Report</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#WorkingWithDataSour"
+                                                            aria-expanded="false" aria-controls="WorkingWithDataSour">
+                                                            Module 2: Working with Data Sources
+                                                        </button>
+                                                    </h2>
+                                                    <div id="WorkingWithDataSour" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Controlling Data Access</li>
+                                                                <li>Editing Data Source Schema</li>
+                                                                <li>Other Common Data Source Operations</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#CreateReportDataSour"
+                                                            aria-expanded="false" aria-controls="CreateReportDataSour">
+                                                            Module 3: Creating a Report from Data Source
+                                                        </button>
+                                                    </h2>
+                                                    <div id="CreateReportDataSour" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Creating and Publishing Report</li>
+                                                                <li>Sharing a Report</li>
+                                                                <li>Creating Explorer</li>
+                                                                <li>Exporting from Explorer</li>
+                                                                <li>Using Explorer in analyst WorkFlow</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#DimensionMetrics"
+                                                            aria-expanded="false" aria-controls="DimensionMetrics">
+                                                            Module 4: Dimensions and Metrics
+                                                        </button>
+                                                    </h2>
+                                                    <div id="DimensionMetrics" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Understanding Dimensions and metrics</li>
+                                                                <li>Adding Dimensions</li>
+                                                                <li>Adding Metrics</li>
+                                                                <li>Sorting data in the chart</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#LookerStudioCharts"
+                                                            aria-expanded="false" aria-controls="LookerStudioCharts">
+                                                            Module 5: Looker Studio built in Charts
+                                                        </button>
+                                                    </h2>
+                                                    <div id="LookerStudioCharts" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Tables and Pivot tables</li>
+                                                                <li>Bar Charts</li>
+                                                                <li>Time series, Line and Area Charts</li>
+                                                                <li>Scatter Charts</li>
+                                                                <li>Pie and Donut Charts</li>
+                                                                <li>Score Cards</li>
+                                                                <li>Geographical Charts</li>
+                                                                <li>Configuring other chart types</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#ImpleInterEleFilterCont"
+                                                            aria-expanded="false" aria-controls="ImpleInterEleFilterCont">
+                                                            Module 6: Implementing Interactive Elements - Filter Controls
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ImpleInterEleFilterCont" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Where to use filters - Reports, Pages, Groups, Filter controls, charts</li>
+                                                                <li>Understanding editor filters</li>
+                                                                <li>Adding editor filter</li>
+                                                                <li>Interactive filter controls</li>
+                                                                <li>Limitations of Filters</li>
+                                                                <li>Adding Graphic elements</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#StylingReportCompo"
+                                                            aria-expanded="false" aria-controls="StylingReportCompo">
+                                                            Module 7: Styling Report Components
+                                                        </button>
+                                                    </h2>
+                                                    <div id="StylingReportCompo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Background and Border</li>
+                                                                <li>Text styles</li>
+                                                                <li>Common chart style properties</li>
+                                                                <li>Configuring style properties in Report Themes</li>
+                                                                <li>Adding Design Components</li>
+                                                                <li>Embedding external content</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#CalculatedFields"
+                                                            aria-expanded="false" aria-controls="CalculatedFields">
+                                                            Module 8: Calculated Fields
+                                                        </button>
+                                                    </h2>
+                                                    <div id="CalculatedFields" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Operations you can do with Calculated Fields</li>
+                                                                <li>Data Source vs Chart specific Calculated Fields</li>
+                                                                <li>Manipulating Data with Functions</li>
+                                                                <li>Using Branching Logic in Calculated Fields</li>
+                                                                <li>Creating New Parameters</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#BlendingData"
+                                                            aria-expanded="false" aria-controls="BlendingData">
+                                                            Module 9: Blending Data
+                                                        </button>
+                                                    </h2>
+                                                    <div id="BlendingData" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Understanding Blends</li>
+                                                                <li>Data Source vs Blends</li>
+                                                                <li>Join Operators - Inner, Left, Right, Full Outer, Cross</li>
+                                                                <li>Join Conditions</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#BuildingDataStoLookerStu"
+                                                            aria-expanded="false" aria-controls="BuildingDataStoLookerStu">
+                                                            Module 10: Building Data Stories with Looker Studio
+                                                        </button>
+                                                    </h2>
+                                                    <div id="BuildingDataStoLookerStu" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Build a Customer Churn Analysis Report</li>
+                                                                <li>Build a ECommerce Revenue Analysis Report</li>
+                                                                <li>Monitoring Usage Looker Studio Report</li>
+                                                                <li>Optimising Reports for Performance</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#BusiMarApp"
+                                                            aria-expanded="false" aria-controls="BusiMarApp">
+                                                            Module 11: Business and Marketing Applications
+                                                        </button>
+                                                    </h2>
+                                                    <div id="BusiMarApp" class="accordion-collapse collapse"
+                                                        data-bs-parent="#GoogleLookerStudio">
+                                                        <div class="accordion-body">
+                                                            <ul>
+                                                                <li>Viewing Data from Google my Business</li>
+                                                                <li>Using Google search console for Audience Insights</li>
+                                                                <li>Web Data Visualizations</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -782,7 +1044,7 @@
                         </li>
                         <li>
                             <a class="justify-content-between d-flex" href="#">
-                                <p>call </p>
+                                <p>Call </p>
                                 <span>+91 9489654104</span>
                             </a>
                         </li>
@@ -800,26 +1062,16 @@
                 <div class="col-lg-2 col-md-6 single-footer-widget">
                     <h4>Top Courses</h4>
                     <ul>
-                        <li><a href="#">Full Stack Development</a></li>
-                        <li><a href="#">UI & UX Design</a></li>
-                        <li><a href="#">Designer Pro</a></li>
+                        <li><a href="../course_details/full_stack.html">Full Stack Development</a></li>
+                        <li><a href="../course_details/ui_ux_design.html">UI & UX Design</a></li>
+                        <li><a href="../course_details/digital_marketing.html">Digital Marketing</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 single-footer-widget">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Jobs</a></li>
                         <li><a href="#">Courses</a></li>
                         <li><a href="#">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 single-footer-widget">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="#">Guides</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Experts</a></li>
-                        <li><a href="#">Agencies</a></li>
                     </ul>
                 </div>
             </div>
